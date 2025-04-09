@@ -1,6 +1,5 @@
-fastapi
-uvicorn
-rembg
-pillow
-python-multipart
-onnxruntime
+Flask>=2.0
+rembg[cpu]>=2.0  # Dùng bản CPU
+Pillow>=9.0
+gunicorn>=20.0
+# Thêm các thư viện khác nếu bạn dùng
